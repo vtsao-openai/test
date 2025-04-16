@@ -1,5 +1,5 @@
 build:asan --copt=-fsanitize=address
-build:asan -c dbg
+build:asan --compilation_mode=dbg
 build:asan --copt=-fno-omit-frame-pointer
 build:asan --linkopt=-fsanitize=address
 build:asan --test_arg=--log_level=all

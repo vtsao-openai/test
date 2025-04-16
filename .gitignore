@@ -13,3 +13,6 @@ smoke-ts-sink*.*
 build/tmp
 build/build_dir
 build/build_*
+
+MODULE.bazel.lock
+bazel-*

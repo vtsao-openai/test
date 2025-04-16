@@ -100,7 +100,7 @@ cc_test(
 
 # This test has memory leaks.
 cc_test(
-    name = "test_macro_global_fixture",
+    name = "macro_global_fixture_test",
     srcs = ["test-macro-global-fixture.cpp"],
     args = [
         "--",
